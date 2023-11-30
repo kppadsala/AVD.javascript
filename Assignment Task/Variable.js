@@ -32,12 +32,19 @@
 // console.log(y);  //==>90
 // console.log(z);  //Assignment to constant variable
 
+// =================Task2==================
+// console.log(x)  //x is not defined
+// console.log(y)  //undefined
+// console.log(z)  //z is not defined
 
-let x=50;
-console.log("==>",x);
+{
+      let x = 100
+      var y = 100
+      const z = 100
+}
 
-let Y=50;
-console.log("==>",x);
+// console.log(x)  //x is not defined
+// console.log(y)  //100
+// console.log(z)  //z is not defined
 
-let Z = 50;
-console.log("==>", x);
+
