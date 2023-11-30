@@ -35,3 +35,9 @@
 
 let x=50;
 console.log("==>",x);
+
+let Y=50;
+console.log("==>",x);
+
+let Z = 50;
+console.log("==>", x);
