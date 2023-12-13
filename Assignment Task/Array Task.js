@@ -78,6 +78,7 @@ console.log("arr==>", arr);  //arr==>[1, 2, 3,   4, 5,6, 8, 9, 100]
 
 // 12. reverce an array with use of method
 arr.reverse();
+("file: Array Task.js:81 ===> arr---->", arr)
 console.log("arr==>", arr);  //arr==> [100, 9, 8, 6, 5,4, 3, 2, 1]
 
 // 13. reverce an array with use of for-loop
