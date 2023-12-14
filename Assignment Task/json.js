@@ -55,17 +55,47 @@ const arr = require("./jsonData");
 // 5.acending decending population wise
 
 // asending
-let asePOP=arr.sort((a, b) => a.population - b.population);
-asePOP.forEach((e) => {
-  console.log(`${e.state_name}==>${e.population}`);
-});
+// let asePOP=arr.sort((a, b) => a.population - b.population);
+// asePOP.forEach((e) => {
+//   console.log(`${e.state_name}==>${e.population}`);
+// });
 
 // desending
-let desPOP=arr.sort((a, b) => b.population - a.population);
-desPOP.forEach((e) => {
-  console.log(`${e.state_name}==>${e.population}`);
-});
+// let desPOP=arr.sort((a, b) => b.population - a.population);
+// desPOP.forEach((e) => {
+  // console.log(`${e.city}==>${e.population}`);
+
+// });
+//============== 6. top 5 city population wise [only name of city]============
+// let slicerArr = arr.slice(0, 5);
+// // console.log("  slicerArr:", slicerArr);
+// for (let i = 0; i <=5; i++){
+//   let TopMostPopulationCities=slicerArr[i].city;
+//   console.log("TopMostPopulationCities==>", TopMostPopulationCities);
+  
+// }
 
 //========== 7. give total populatin of state which give by user=========
 
+
+const statePopulations = {};
+
+// Calculate total population for each state
+arr.forEach((e) => {
+  // const state = e.state_name;
+  const state = e.state_name;
+
+  const population = parseInt(e.population);
+
+  if (statePopulations[state]) {
+    statePopulations[state] += population;
+  } else {
+    statePopulations[state] = population;
+  }
+});
+
+// Display the total population for each state
+for (const state in statePopulations) {
+  console.log(`${state}: ${statePopulations[state]}`);
+}
 
