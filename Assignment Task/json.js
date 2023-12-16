@@ -1,6 +1,6 @@
+//=========== Task-1. import data from json ==========
 const arr = require("./jsonData");
 
-//=========== Task-1. import data from json ==========
 
 
 // ======== Taks-2. give all city name of state which one give by user ========
@@ -42,16 +42,20 @@ const arr = require("./jsonData");
 
 // ======= Taks-4. city list which has population more then user give========
 
-// function filterCitiesByPopulation(populationThreshold) {
-//   return arr.filter((city) => JSON.parse(city.population) > populationThreshold);
-// }
+function filterCitiesByPopulation(populationThreshold) {
+  return arr.filter((city) => JSON.parse(city.population) > populationThreshold);
+}
 
-// let userPopulationThreshold = 10000000;
-// let filteredCities = filterCitiesByPopulation(userPopulationThreshold);
+let userPopulationThreshold = 10000000;
+let filteredCities = filterCitiesByPopulation(userPopulationThreshold);
 
 // console.log("filteredCities==>",filteredCities);
-// console.log("filteredCities==>",filteredCities.length);
-
+for (i = 0; i < filteredCities.length; i++){
+  let cityinfo=filteredCities[i].city
+  console.log("cityinfo=", cityinfo)
+  
+}
+console.log("Total Cities length==>",filteredCities.length);
 // 5.acending decending population wise
 
 // asending
@@ -78,24 +82,24 @@ const arr = require("./jsonData");
 //========== 7. give total populatin of state which give by user=========
 
 
-const statePopulations = {};
+// let statePopulations = {};
 
 // Calculate total population for each state
-arr.forEach((e) => {
-  // const state = e.state_name;
-  const state = e.state_name;
+// arr.forEach((e) => {
+//   // const state = e.state_name;
+//   let state = e.state_name;
 
-  const population = parseInt(e.population);
+//   let population = JSON.parse(e.population);
 
-  if (statePopulations[state]) {
-    statePopulations[state] += population;
-  } else {
-    statePopulations[state] = population;
-  }
-});
+//   if (statePopulations[state]) {
+//     statePopulations[state] += population;
+//   } else {
+//     statePopulations[state] = population;
+//   }
+// });
 
-// Display the total population for each state
-for (const state in statePopulations) {
-  console.log(`${state}: ${statePopulations[state]}`);
-}
+// // Display the total population for each state
+// for (const state in statePopulations) {
+//   console.log(`${state}: ${statePopulations[state]}`);
+// }
 
