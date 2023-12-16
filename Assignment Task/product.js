@@ -1,4 +1,4 @@
-// const arr = require("./jsonData");
+
 const arrData = require("./productData");
 // 1) top 5 cheapest product
 // let price = [];
@@ -49,20 +49,27 @@ const arrData = require("./productData");
 
 // 5) filter all data by user given gender wise
 
-function getDataGender(genderName){
-    let genderdata = arrData.filter((genderinfo) => {
-        return genderinfo.gender==genderName
-    })
-    let genderAllData = genderdata.map((genderAllinfo) => {
-        return genderAllinfo.brand;
-    })    
-    return genderAllData;
+// function getDataGender(genderName){
+//     let genderdata = arrData.filter((genderinfo) => {
+//         return genderinfo.gender==genderName
+//     })
+//     let genderAllData = genderdata.map((genderAllinfo) => {
+//         return genderAllinfo;
+//     })    
+//     return genderAllData;
+// }
+
+// let userInput = "male";
+// let userGenderInput = getDataGender(userInput);
+// console.log("userGenderInput:", userGenderInput)
+// console.log("userGenderInput:", userGenderInput.length);
+
+// 6) filter data category wise --> if user give smartphone then return all data which contain smartphone in category in array
+
+function filterByCategory(category, dataArray) {
+  return dataArray.filter(item => item.category.includes(category));
 }
 
-let userInput = "male";
-let userGenderInput = getDataGender(userInput);
-// userGenderInput.forEach((e) => {
-//     console.log(`${e}`);
-// })
-console.log("userGenderInput:", userGenderInput)
-console.log("userGenderInput:", userGenderInput.length);
+const smartphoneItems = filterByCategory("smartphones", arrData);
+
+console.log(smartphoneItems);
