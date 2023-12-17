@@ -1,4 +1,5 @@
 
+const arr = require("./productData");
 const arrData = require("./productData");
 // 1) top 5 cheapest product
 // let price = [];
@@ -66,10 +67,22 @@ const arrData = require("./productData");
 
 // 6) filter data category wise --> if user give smartphone then return all data which contain smartphone in category in array
 
-function filterByCategory(category, dataArray) {
-  return dataArray.filter(item => item.category.includes(category));
-}
+// let categoryToFilter = "smartphones";
+// let filteredArray = arrData.filter((item)=> {
+//   return item.category.includes(categoryToFilter);
+// });
+// console.log(filteredArray);
+// console.log("Length Of FiltterdArray=", filteredArray.length);
 
-const smartphoneItems = filterByCategory("smartphones", arrData);
+// 7) filter data color wise --> if user give smartphone then return all data which contain smartphone in color in array --> user can give multiple color
 
-console.log(smartphoneItems);
+
+// let userInput = ["red", "black"];
+//   let ColorFilter = arrData.filter((colorinfo) => {
+//     return colorinfo.color.includes(userInput)
+//   })
+//   console.log("ColorFilter==>", ColorFilter
+ 
+
+
+

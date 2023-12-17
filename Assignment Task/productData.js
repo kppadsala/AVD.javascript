@@ -1298,7 +1298,7 @@ let arr = [
     discountPercentage: 0,
 
     category: ["shoes", "durable"],
-    color: ["red", "black", "white"],
+    color: ["red", "black"],
     size: ["44", "45", "42", "43"],
     isAvailable: true,
     availableStock: 94,
@@ -1332,7 +1332,7 @@ let arr = [
     discountPercentage: 0,
 
     category: ["shoes", "durable"],
-    color: ["red", "black", "white"],
+    color: ["red", "black"],
     size: ["44", "45", "42", "43"],
     isAvailable: true,
     availableStock: 34,
@@ -1349,7 +1349,7 @@ let arr = [
     discountPercentage: 0,
 
     category: ["shoes", "durable"],
-    color: ["red", "black", "white"],
+    color: ["red", "black"],
     size: ["44", "45", "42", "43"],
     isAvailable: true,
     availableStock: 94,
@@ -1366,7 +1366,7 @@ let arr = [
     discountPercentage: 0,
 
     category: ["shoes", "durable"],
-    color: ["red", "black", "white"],
+    color: ["red",  "white"],
     size: ["44", "45", "42", "43"],
     isAvailable: true,
     availableStock: 36,
@@ -1400,7 +1400,7 @@ let arr = [
     discountPercentage: 0,
 
     category: ["shoes", "durable"],
-    color: ["red", "black", "white"],
+    color: [ "black", "white"],
     size: ["44", "45", "42", "43"],
     isAvailable: true,
     availableStock: 94,
@@ -1417,7 +1417,7 @@ let arr = [
     discountPercentage: 0,
 
     category: ["shoes", "durable"],
-    color: ["red", "black", "white"],
+    color: ["red",  "white"],
     size: ["44", "45", "42", "43"],
     isAvailable: true,
     availableStock: 36,
@@ -1434,7 +1434,7 @@ let arr = [
     discountPercentage: 0,
 
     category: ["shoes", "durable"],
-    color: ["red", "black", "white"],
+    color: ["red", "black"],
     size: ["44", "45", "42", "43"],
     isAvailable: true,
     availableStock: 34,
