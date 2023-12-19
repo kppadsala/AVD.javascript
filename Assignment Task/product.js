@@ -1,5 +1,3 @@
-
-const arr = require("./productData");
 const arrData = require("./productData");
 // 1) top 5 cheapest product
 // let price = [];
@@ -32,7 +30,7 @@ const arrData = require("./productData");
 //     console.log(`${e.price}==>${e.discountPercentage}`);
 // });
 
-// 4) give all data of user given brand name 
+// 4) give all data of user given brand name
 
 // function getbranAllinfo (brandName) {
 //   let filterBrandData = arrData.filter((brandData) => {
@@ -56,7 +54,7 @@ const arrData = require("./productData");
 //     })
 //     let genderAllData = genderdata.map((genderAllinfo) => {
 //         return genderAllinfo;
-//     })    
+//     })
 //     return genderAllData;
 // }
 
@@ -77,12 +75,35 @@ const arrData = require("./productData");
 // 7) filter data color wise --> if user give smartphone then return all data which contain smartphone in color in array --> user can give multiple color
 
 
-// let userInput = ["red", "black"];
+// let userInput = ["red", "black"]
 //   let ColorFilter = arrData.filter((colorinfo) => {
 //     return colorinfo.color.includes(userInput)
 //   })
-//   console.log("ColorFilter==>", ColorFilter
+//   console.log("ColorFilter==>", ColorFilter);
+
+// 8) filter data size wise --> if user give 42 then return all data which does not contain 42 in array
  
 
+//  const userSize = "42";
 
+//  const filteredProducts = arrData.filter(
+//    (product) => product.size.includes(userSize)
+//  );
+
+//  console.log(filteredProducts       );
+
+//  9) return available or unavailable products
+// let stockData = arrData.filter((stockItem) => {
+//     return stockItem.isAvailable
+// })
+// console.log("stockData==>", stockData);
+// console.log("Stock Data==>", stockData.length);
+
+// let stockEmptyData = arrData.filter((stockEmpty) => {
+//     return !stockEmpty.isAvailable;
+// })
+// console.log("stockEmptyData==>", stockEmptyData)
+// console.log("Empty Stock Data==>", stockEmptyData.length);
+
+// 10) top 5 products of particular brand which brand given by user accordingly their rating
 
