@@ -1,0 +1,385 @@
+﻿
+Certainly! Here are all the questions along with their answers:
+
+Q1: What is HTML?
+A1: HTML stands for Hypertext Mark-up Language. It's the standard mark-up language used for creating and structuring web pages.
+
+Q2: Who is the founder of HTML?
+A2: Tim Berners-Lee is often credited as the founder of HTML. He played a key role in developing the World Wide Web, which included the creation of HTML as a mark-up language for web documents.
+
+Q3: What is <! DOCTYPE> in HTML?
+A3: <! DOCTYPE> in HTML specifies the document type and version being used.
+
+Q4: What is the <Meta> tag?
+A4: The <Meta> tag in HTML provides metadata about the HTML document. Metadata includes information such as character encoding, viewport settings, description, keywords, authorship details, etc.
+
+Q5: How do you navigate from one page to another in HTML?
+A5: To navigate from one page to another, you can use the <a> (anchor) tag with the her attribute pointing to the URL of the destination page.
+
+Q6: What is an inline tag in HTML?
+A6: Inline tags in HTML are elements that do not start on a new line and only take up as much width as necessary.
+
+Q7: Which tags are used to set formatting on any text in HTML?
+A7: <span> and <div> tags can be used to set formatting on any text in HTML.
+
+Q8: What is the use of the <picture> tag?
+A8: The <picture> tag is used to provide multiple sources for an image based on different resolutions or formats.
+
+Q9: Which tags are dropped from new HTML versions?
+A9: Some tags dropped from new HTML versions include <font>, <centre>, and <strike>.
+
+Q10: Which attributes are dropped from newer HTML versions?
+A10: Some attributes dropped from newer HTML versions include bgcolor, align, and border in favour of CSS styling.
+
+
+Certainly! Here are the next set of questions along with their answers:
+
+Q11: How many types of lists are there in HTML?
+A11: There are three types of lists in HTML: unordered lists (<ul>), ordered lists (<ol>), and definition lists (<dl>).
+
+Q12: What is the use of the <iframe> tag?
+A12: The <iframe> tag is used to embed another HTML document within the current HTML document.
+
+Q13: Using which tag can ImageMap be applied to an image?
+A13: ImageMap can be applied to an image using the <map> tag.
+
+Q14: What is the use of the <details> and <summary> tags?
+A14: The <details> and <summary> tags are used together to create collapsible content sections.
+
+Q15: What is the use of the <q> tag?
+A15: The <q> tag in HTML is used to indicate a short quotation.
+
+Q16: What is a table in HTML?
+A16: A table in HTML is used to display data in rows and columns.
+
+Q17: Which tags are used to create table rows and columns?
+A17: <tr> and <td> tags are used to create table rows and columns, respectively.
+
+Q18: Describe the <colgroup> tag.
+A18: <colgroup> is used to group together columns in a table and apply styles or attributes to them collectively.
+
+Q19: What is the <embed> tag used for?
+A19: The <embed> tag is used to embed external content such as multimedia or other non-HTML content within an HTML document.
+
+Q20: Which tags are used to create HTML layout?
+A20: Tags such as <header>, <footer>, <nav>, <aside>, and <section> are commonly used to create HTML layouts.
+
+Q21: What is a semantic tag in HTML?
+A21: A semantic tag in HTML is an element that conveys meaning about its content to both the browser and the developer, aiding in accessibility and search engine optimization.
+
+Q22: What is a non-semantic tag in HTML?
+A22: A non-semantic tag in HTML is an element that does not convey any specific meaning or purpose, such as <div> and <span>.
+
+Q23: What is the use of the <div> and <span> tags?
+A23: The <div> and <span> tags are generic containers used to apply styling or structure to content in HTML.
+
+Q24: What are the elements of an HTML form?
+A24: Elements of an HTML form include input fields, buttons, checkboxes, radio buttons, dropdown lists, textareas, and more.
+
+Q25: Which main attributes are effective on the <form> tag?
+A25: Main attributes affecting the <form> tag include action, method, and enctype.
+
+Q26: List out some <input> types in HTML.
+A26: Some <input> types in HTML include text, password, checkbox, radio, submit, reset, number, date, and email.
+
+Q27: What is the <textarea> tag used for?
+A27: The <textarea> tag is used to create a multiline text input field in HTML forms.
+
+Q28: Which tags are used to create dropdown lists in HTML?
+A28: Dropdown lists in HTML are created using <select> and <option> tags.
+
+Q29: Which tag is used to create graphics on a webpage in HTML?
+A29: The <canvas> and <svg> tags are used to create graphics on web pages in HTML.
+
+Q30: What does <svg> stand for?
+A30: <svg> stands for Scalable Vector Graphics.
+
+Q31: What is a tag in HTML?
+A31: A tag in HTML is an element used to define the structure and content of a web page.
+
+Q32: What is an attribute in HTML?
+A32: An attribute in HTML provides additional information about an element and is specified within the element's start tag.
+
+Q33: What is an element in HTML?
+A33: An element in HTML is a component of a web page defined by a start tag, content, and an end tag (in most cases).
+
+Q34: What is an opening tag and a closing tag in HTML?
+A34: An opening tag in HTML is the beginning part of an element's definition, while the closing tag marks the end of the element.
+
+Q35: Which tags are non-closing tags in HTML?
+A35: Tags such as <img>, <input>, and <br> are non-closing tags in HTML.
+
+Q36: How do you set a favicon using HTML?
+A36: You can set a favicon using the <link> tag with the rel="icon" attribute.
+
+Q37: What is the purpose of the target attribute in the <a> tag in HTML? (in Gujarati)
+A37: <a> ટેગના target ગુણવત્તાનો ઉપયોગ શું માટે થાય છે? ઉત્તર: આ ગુણવત્તા લક્ષ્યના ડૉક્યુમેન્ટ ક્યાં ખોલવાનું છે તે સ્પષ્ટ કરવા માટે ઉપયોગ કરવામાં આવે છે.	
+
+
+       css              
+
+Q1: What is the full form of CSS?
+A1: CSS stands for Cascading Style Sheets.
+
+Q2: What are the types of CSS?
+A2: There are three types of CSS: inline CSS, internal CSS, and external CSS.
+
+Q3: Which CSS is preferred first in an HTML file?
+A3: Inline CSS takes precedence over internal CSS, and internal CSS takes precedence over external CSS.
+
+Q4: Using which tag do you link a CSS file in an HTML file?
+A4: You use the <link> tag to link a CSS file in an HTML file.
+
+Q5: How do you set a Google font?
+A5: You can set a Google font by adding a <link> tag to your HTML file, linking to the Google Fonts API, and then specifying the font-family in your CSS.
+
+Q6: How many properties are used to set a background image?
+A6: There are five properties used to set a background image: background-image, background-repeat, background-position, background-size, and background-attachment.
+
+Q7: What is the border-radius property used for?
+A7: The border-radius property is used to create rounded corners on an element's border.
+
+Q8: What is the use of the background-origin and background-clip property?
+A8: The background-origin property determines where the background image or color starts within an element's box, while the background-clip property determines the painting area of the background.
+
+Q9: How do you set a gradient color in borders?
+A9: You can set a gradient color in borders using the border-image property with the linear-gradient() function.
+
+Q10: How many types of gradient colors are there?
+A10: There are two types of gradient colors: linear gradients and radial gradients.
+
+Q11: What is a gradient color?
+A11: A gradient color is a gradual transition between two or more colors.
+
+Q12: What is the use of the filter property?
+A12: The filter property in CSS is used to apply visual effects to an element, such as blur, grayscale, contrast, etc.
+
+Q13: What effect is shown when we apply display: flex?
+A13: When we apply display: flex, the elements within the container become flexible and can be easily aligned and positioned.
+
+Q14: What effect is shown when we apply display: grid?
+A14: When we apply display: grid, the container's children are laid out in a grid format, allowing for precise control over their placement and alignment.
+
+Q15: How do you merge cells in a grid?
+A15: You can merge cells in a grid using the grid-row and grid-column properties to specify the span of the cells.
+
+Q16: How do you use the flex-wrap property, and what effect does it show on the webpage?
+A16: The flex-wrap property is used to control whether flex items are forced onto a single line or can wrap onto multiple lines. It affects how flex items are laid out within a flex container.
+
+Q17: What effect is shown when we apply the place-content, place-self, and place-items properties?
+A17: The place-content property is a shorthand for align-content and justify-content, while place-self and place-items properties align individual flex items or grid items within their containers.
+
+Q18: Describe the place-content, place-self, and place-items properties.
+A18: The place-content property aligns and justifies flex or grid items within their container both vertically and horizontally. The place-self property aligns a single flex or grid item within its container. The place-items property aligns both the flex or grid items and the container itself.
+
+Q19: Describe the justify-content, justify-items, and justify-self properties.
+A19: The justify-content property aligns flex items along the main axis of the flex container. The justify-items property aligns grid items along the inline (row) axis of the grid container. The justify-self property aligns a single grid item along the inline (row) axis of its container.
+
+Q20: Describe the align-content, align-items, and align-self properties.
+A20: The align-content property aligns flex items along the cross axis of the flex container. The align-items property aligns grid items along the block (column) axis of the grid container. The align-self property aligns a single grid item along the block (column) axis of its container.
+
+Q21: When is the gap property affected?
+A21: The gap property is affected when working with CSS Grid or Flexbox layouts. It sets the spacing between grid or flex items.
+
+Q22: How do you apply the align-content property?
+A22: The align-content property is applied to a CSS Grid container and is used to align grid tracks (rows) within the grid container.
+
+Q23: What is a media query?
+A23: A media query is a CSS technique used to apply different styles to an HTML document based on various factors such as screen size, device orientation, or screen resolution.
+
+Q24: How do you make an image responsive using CSS?
+A24: You can make an image responsive using CSS by setting the max-width property of the image to 100%.
+
+Q25: What is a transition? Describe its property.
+A25: A transition in CSS is a way to smoothly animate the change in CSS properties over a specified duration. The transition property specifies the CSS properties to transition and the duration, timing function, and delay of the transition.
+
+Q26: What is transform in CSS? How many functions are available in the transform property?
+A26: Transform in CSS is a property that allows you to rotate, scale, skew, or translate an element in 2D or 3D space. There are several functions available in the transform property, including rotate(), scale(), skew(), translate(), etc.
+
+Q27: How do you create an animation?
+A27: You can create animations in CSS using the @keyframes rule to define the animation's keyframes and the animation property to specify the animation's duration, timing function, delay, and iteration count.
+
+Q28: How do you link an external CSS file in another CSS file?
+A28: You can link an external CSS file in another CSS file using the @import rule followed by the URL of the external CSS file.
+
+Q29: List out some CSS selectors.
+A29: Some CSS selectors include element selectors, class selectors, ID selectors, descendant selectors, child selectors, adjacent sibling selectors, attribute selectors, pseudo-classes, and pseudo-elements.
+
+Q30: What effect is shown when we apply the padding and margin properties on a webpage?
+A30: When you apply the padding property, it adds space inside an element's border, whereas the margin property adds space outside an element's border.
+
+Q31: What is the difference between CSS, CSS2, and CSS3?
+A31: CSS stands for Cascading Style Sheets and is the basic styling language for web development. CSS2 introduced new features such as positioning, floating elements, and additional selectors. CSS3 is the latest version of CSS and includes advanced features like animations, transitions, gradients, and more.
+
+Q32: What is the use of the box-sizing property?
+A32: The box-sizing property in CSS allows you to control how the width and height of an element are calculated, including or excluding padding and border widths.
+
+Q33: What is the use of the box-shadow and text-shadow properties?
+A33: The box-shadow property adds shadows to an element's box, while the text-shadow property adds shadows to text.
+
+Q34: When do you apply the overflow property?
+A34: The overflow property is applied when you want to control what happens to content that overflows its container's boundaries. It determines whether the overflow content is clipped, hidden, or displayed with scrollbars.
+
+Q35: Describe the text-wrap, text-stroke, and text-indent properties.
+A35: The text-wrap property controls whether text should wrap when it reaches the end of its containing element. The text-stroke property adds a stroke or outline to text characters. The text-indent property specifies the indentation of the first line of text within an element.
+
+Q36: When do you apply the top, bottom, left, and right properties on a webpage?
+A36: The top, bottom, left, and right properties are applied when you want to position an element using absolute or fixed positioning, or when you want to create space around an element using margin or padding.
+
+Q37: What is the use of the z-index property?
+A37: The z-index property in CSS controls the stacking order of positioned elements along the z-axis. It determines which elements are displayed on top of others when they overlap.
+
+Q38: What are the float and clear properties used for?
+A38: The float property in CSS is used to position elements to the left or right within their containing elements, allowing text to wrap around them. The clear property is used to control the behavior of elements that follow a floated element, preventing them from wrapping around the floated element.
+
+Q39: What is the box model?
+A39: The box model in CSS describes the layout of elements on a web page as a set of nested boxes. Each box consists of content, padding, border, and margin areas.
+
+Q40: How do you use the max-width property?
+A40: The max-width property in CSS is used to set the maximum width of an element. It ensures that the element does not exceed the specified width, even if its content or parent container is larger.
+
+Q41: What is a pseudo-class and pseudo-element?
+A41: A pseudo-class in CSS is a keyword added to selectors that specifies a special state of the selected element(s), such as :hover, :active, or :focus. A pseudo-element is similar but allows you to style a specific part of an element's content, such as ::before or ::after.
+
+Q42: What effect is shown when we apply the opacity property?
+A42: When you apply the opacity property in CSS, it changes the transparency level of an element, making it partially or completely transparent.
+
+Q43: What are the object-fit and object-position properties used for?
+A43: The object-fit property in CSS specifies how an image or video should be resized to fit its container. The object-position property specifies the alignment of the content inside its container.
+
+Q44: How to apply CSS comment?
+A44: CSS comments are applied using /* to start the comment and */ to end it. Anything between these markers is considered a comment and is ignored by the browser when rendering the webpage.
+
+Q45: What is the difference between visibility:hidden and display:none property?
+A45: visibility:hidden hides the element from view while still taking up space in the layout, whereas display:none removes the element from the document flow entirely, making it invisible and not taking up any space.
+
+
+
+                                        java script
+1. What is JavaScript?
+=> JavaScript is a high-level, interpreted programming language used to add interactivity and dynamic behavior to web pages.
+
+2. Who is the founder of JavaScript?
+=> JavaScript was created by Brendan Eich, who was working at Netscape Communications Corporation at the time.
+
+3. What is the first name of JavaScript?
+=> The original name of JavaScript was Mocha, later renamed to LiveScript, and finally renamed to JavaScript.
+
+4. How to apply JavaScript in a webpage?
+=> JavaScript can be applied to a webpage by embedding it directly within the HTML document using <script> tags or by linking to an external JavaScript file.
+
+5. What is vanilla JS?
+=> Vanilla JS refers to the use of plain JavaScript without any additional libraries or frameworks.
+
+6. JavaScript is which type of language?
+=> JavaScript is a dynamic, weakly-typed language with first-class functions..
+
+7. How many types of JavaScript comments?
+=> There are two types of JavaScript comments: single-line comments (//) and multi-line comments (/* */).
+
+8. How to apply JavaScript comment?
+=> JavaScript comments are applied using // for single-line comments or /* */ for multi-line comments.
+
+9. What is a variable? How to create it?
+=> A variable in JavaScript is a container for storing data values. It can be created using the var, let, or const keywords followed by a variable name.
+
+10. What is the difference between global and block-level variables?
+=> Global variables are declared outside of any function and can be accessed from anywhere in the script. Block-level variables are declared within a block of code (inside a function or loop) and are scoped to that block.
+
+11. What is datatype and list out its types?
+=> Datatype specifies the type of data that can be stored in a variable. JavaScript has several datatypes including Number, String, Boolean, Object, Array, Function, Undefined, and Null.
+
+12. List of operator types.
+=> JavaScript has various types of operators including Arithmetic, Assignment, Comparison, Logical, Bitwise, and Ternary operators.
+
+13. List out conditional statements or decision-making.
+=> Conditional statements in JavaScript include if...else, switch, and ternary operators.
+
+14. When do we use the if condition?
+=> The if condition is used to execute a block of code if a specified condition is true.
+
+15. What do we use switch statements for?
+=> Switch statements are used to perform different actions based on different conditions.
+
+16. What is a loop?
+=> A loop is a programming construct that repeats a block of code until a specified condition is met.17List out types of loops.
+=> JavaScript has several types of loops including for, while, do...while, and for...in loops.
+
+17. What is a function?
+=> A function in JavaScript is a block of reusable code that performs a specific task.
+
+18. What is an object? How many ways to create an object?
+=> An object in JavaScript is a collection of key-value pairs. There are several ways to create objects in JavaScript, including object literals, constructor functions, and using the Object.create() method.
+
+19. What is an array? How many ways to create an array?
+=> An array in JavaScript is a special type of object used to store multiple values in a single variable. Arrays can be created using array literals or the Array constructor function.
+
+20. How to create a digital clock on a webpage?
+=> A digital clock on a webpage can be created using JavaScript's Date object and setInterval() method to update the time continuously.
+
+21. How to use the Date function?
+=> The Date function in JavaScript is used to create a new Date object, which represents a date and time.
+
+22. How to use math functions?
+=> Math functions in JavaScript are used to perform mathematical operations. Some common math functions include Math.round(), Math.floor(), Math.ceil(), etc.
+
+23. What is Boolean?
+=> Boolean is a data type in JavaScript that represents true or false values.
+
+24. List out JavaScript selectors.
+=> JavaScript selectors include getElementById(), getElementsByClassName(), getElementsByName(), getElementsByTagName(), querySelector(), and querySelectorAll().
+
+25. How to use getElementById(), getElementsByClassName(), getElementsByName(), getElementsByTagName(), querySelector(), querySelectorAll()?
+=> These methods are used to select and manipulate HTML elements in JavaScript based on their ID, class, name, tag name, or CSS selector.
+
+26. What is the innerHTML and innerText property?
+=> The innerHTML property sets or returns the HTML content (including tags) of an element, while the innerText property sets or returns the text content of an element, without HTML tags.
+
+27. What is RegExp?
+=> RegExp (regular expression) is a powerful tool for pattern matching and search-and-replace operations in strings.
+
+28. List out the window object.
+=> The window object represents the browser's window and contains properties and methods for manipulating the browser window.
+
+29. List out the history object.
+=> The history object represents the browser's history and contains properties and methods for navigating through the browser's history stack.
+
+30. How many types of popup/dialog boxes are there?
+=> There are three types of popup/dialog boxes in JavaScript: alert(), prompt(), and confirm().
+
+31. What is an event?
+=> An event in JavaScript is an action that occurs on an HTML element, such as a mouse click, keyboard press, or page load.
+
+32. What is an event handler?
+=> An event handler is a function that is executed in response to an event occurring on an HTML element.
+
+33. What is event handling?
+=> Event handling in JavaScript involves defining event handlers to respond to user interactions or other events on a webpage.
+
+34. How many types of events are there?
+=> There are many types of events in JavaScript, including mouse events, keyboard events, form events, window events, and more.
+
+35. What is the difference between setTimeOut() and setInterval()?
+=> setTimeout() executes a function once after a specified delay, while setInterval() repeatedly executes a function at a specified interval.
+
+36. How to stop setInterval()?
+=> You can stop setInterval() by using the clearInterval() method, passing in the ID returned by setInterval().
+
+37. What is a cookie? How to create it?
+=> A cookie is a small piece of data stored on the client's computer by the web server. Cookies can be created using the document.cookie property in JavaScript.
+
+38. How to set CSS dynamically on a webpage?
+=> CSS can be set dynamically on a webpage using JavaScript by accessing and modifying the style property of HTML elements.
+
+39. What is the classList and className property?
+=> The classList property returns the class names of an element as a DOMTokenList object, while the className property sets or returns the class names of an element as a string.
+
+40. How to add CSS or structure on a webpage?
+=> CSS or structure can be added to a webpage using JavaScript by accessing and modifying the style or innerHTML properties of HTML elements.
+
+41. How to remove CSS or structure on a webpage?
+=> CSS or structure can be removed from a webpage using JavaScript by setting the style or innerHTML properties of HTML elements to an empty string or null.
+
+42. How is the contains() method used? (in Gujarati)
+=> કન્ટેન્સ() મેથડ ઉપયોગ કેવી રીતે થાય છે? ઉત્તર: contains() મેથડ ઉપયોગ કરીને અમે તેની દ્વારા શોધાયેલી સ્થાનિકતાને ચકાસી શકાય છે અને યોગ્ય વર્તની કરી શકાય છે કે શ્રેણીમાં તે લિખેલા છે કે નહીં.
+Let me know if you need more questions or any other assistance!
